@@ -28,15 +28,15 @@ VETARGS?=-asmdecl -atomic -bool -buildtags -copylocks -methods \
          -nilfunc -printf -rangeloops -shift -structtags -unsafeptr
 
 # API_PKG sets namespace where the API resources are defined
-API_PKG := github.com/openebs/maya/pkg
+API_PKG := github.com/aamir-tiwari-sumo/maya/pkg
 
 # Default arguments for code gen script
 
 # OUTPUT_PKG is the path of directory where you want to keep the generated code
-OUTPUT_PKG=github.com/openebs/maya/pkg/client/generated
+OUTPUT_PKG=github.com/aamir-tiwari-sumo/maya/pkg/client/generated
 
 # APIS_PKG is the path where apis group and schema exists.
-APIS_PKG=github.com/openebs/maya/pkg/apis
+APIS_PKG=github.com/aamir-tiwari-sumo/maya/pkg/apis
 
 # GENS is an argument which generates different type of code.
 # Possible values: all, deepcopy, client, informers, listers.
@@ -106,7 +106,7 @@ DBUILD_DATE=$(shell date -u +'%Y-%m-%dT%H:%M:%SZ')
 
 # Specify the docker arg for repository url
 ifeq (${DBUILD_REPO_URL}, )
-  DBUILD_REPO_URL="https://github.com/openebs/maya"
+  DBUILD_REPO_URL="https://github.com/aamir-tiwari-sumo/maya"
   export DBUILD_REPO_URL
 endif
 

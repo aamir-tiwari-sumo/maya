@@ -20,7 +20,7 @@ import (
 	"context"
 	"encoding/json"
 
-	client "github.com/openebs/maya/pkg/kubernetes/client/v1alpha1"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/client/v1alpha1"
 	extnv1beta1 "k8s.io/api/extensions/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"

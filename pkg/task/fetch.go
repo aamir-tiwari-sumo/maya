@@ -23,8 +23,8 @@ import (
 	"github.com/pkg/errors"
 	"k8s.io/klog"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	m_k8s_client "github.com/openebs/maya/pkg/client/k8s"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	m_k8s_client "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s"
 	mach_apis_meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

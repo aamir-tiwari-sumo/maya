@@ -19,7 +19,7 @@ package v1alpha2
 import (
 	"testing"
 
-	ndmapis "github.com/openebs/maya/pkg/apis/openebs.io/ndm/v1alpha1"
+	ndmapis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/ndm/v1alpha1"
 )
 
 func TestValidateBlockDevice(t *testing.T) {

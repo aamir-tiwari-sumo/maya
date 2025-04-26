@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	vdump "github.com/openebs/maya/pkg/apis/openebs.io/zpool/v1alpha1"
+	vdump "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/zpool/v1alpha1"
 )
 
 // SetPool method set the Pool field of PoolDump object.

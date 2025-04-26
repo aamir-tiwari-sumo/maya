@@ -24,7 +24,7 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	client "github.com/openebs/maya/pkg/kubernetes/client/v1alpha1"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/client/v1alpha1"
 	admission "k8s.io/api/admissionregistration/v1"
 
 	"k8s.io/client-go/kubernetes"

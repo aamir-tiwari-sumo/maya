@@ -17,7 +17,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	stringer "github.com/openebs/maya/pkg/apis/stringer/v1alpha1"
+	stringer "github.com/aamir-tiwari-sumo/maya/pkg/apis/stringer/v1alpha1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

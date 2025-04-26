@@ -20,14 +20,14 @@ import (
 	"context"
 	"strings"
 
-	ndm "github.com/openebs/maya/pkg/apis/openebs.io/ndm/v1alpha1"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	bdc_v1alpha1 "github.com/openebs/maya/pkg/blockdeviceclaim/v1alpha1"
+	ndm "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/ndm/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	bdc_v1alpha1 "github.com/aamir-tiwari-sumo/maya/pkg/blockdeviceclaim/v1alpha1"
 	"github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	ndmclientset "github.com/openebs/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset"
+	ndmclientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset"
 )
 
 //TODO: Update the file with latest pattern

@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	"github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	"github.com/openebs/maya/pkg/volume"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	"github.com/aamir-tiwari-sumo/maya/pkg/volume"
 	"github.com/pkg/errors"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/uuid"

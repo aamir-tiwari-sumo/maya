@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/openebs/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset"
-	openebsv1beta1 "github.com/openebs/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset/typed/runtask/v1beta1"
-	fakeopenebsv1beta1 "github.com/openebs/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset/typed/runtask/v1beta1/fake"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset"
+	openebsv1beta1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset/typed/runtask/v1beta1"
+	fakeopenebsv1beta1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset/typed/runtask/v1beta1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

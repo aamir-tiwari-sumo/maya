@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/openebs/maya/pkg/client/mapiserver"
-	"github.com/openebs/maya/pkg/version"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/mapiserver"
+	"github.com/aamir-tiwari-sumo/maya/pkg/version"
 	"github.com/spf13/cobra"
 )
 

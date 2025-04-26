@@ -16,9 +16,9 @@ limitations under the License.
 package usage
 
 import (
-	k8sapi "github.com/openebs/maya/pkg/client/k8s/v1alpha1"
-	env "github.com/openebs/maya/pkg/env/v1alpha1"
-	openebsversion "github.com/openebs/maya/pkg/version"
+	k8sapi "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s/v1alpha1"
+	env "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
+	openebsversion "github.com/aamir-tiwari-sumo/maya/pkg/version"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"
 )

@@ -19,7 +19,7 @@ package v1alpha1
 import (
 	"testing"
 
-	pts "github.com/openebs/maya/pkg/kubernetes/podtemplatespec/v1alpha1"
+	pts "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/podtemplatespec/v1alpha1"
 	appsv1 "k8s.io/api/apps/v1"
 )
 

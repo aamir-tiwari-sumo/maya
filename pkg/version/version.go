@@ -40,8 +40,8 @@ var (
 )
 
 const (
-	versionFile   string = "/src/github.com/openebs/maya/VERSION"
-	buildMetaFile string = "/src/github.com/openebs/maya/BUILDMETA"
+	versionFile   string = "/src/github.com/aamir-tiwari-sumo/maya/VERSION"
+	buildMetaFile string = "/src/github.com/aamir-tiwari-sumo/maya/BUILDMETA"
 
 	// versionDelimiter is used as a delimiter to separate version info
 	versionDelimiter string = "-"

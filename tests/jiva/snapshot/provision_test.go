@@ -20,10 +20,10 @@ package snapshot
 // import (
 // 	. "github.com/onsi/ginkgo"
 // 	. "github.com/onsi/gomega"
-// 	"github.com/openebs/maya/tests/jiva"
+// 	"github.com/aamir-tiwari-sumo/maya/tests/jiva"
 //
-// 	pvc "github.com/openebs/maya/pkg/kubernetes/persistentvolumeclaim/v1alpha1"
-// 	snap "github.com/openebs/maya/pkg/kubernetes/snapshot/v1alpha1"
+// 	pvc "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/persistentvolumeclaim/v1alpha1"
+// 	snap "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/snapshot/v1alpha1"
 // 	corev1 "k8s.io/api/core/v1"
 // 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 // )

@@ -19,7 +19,7 @@ package usage
 import (
 	"time"
 
-	menv "github.com/openebs/maya/pkg/env/v1alpha1"
+	menv "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
 )
 
 var OpenEBSPingPeriod menv.ENVKey = "OPENEBS_IO_ANALYTICS_PING_INTERVAL"

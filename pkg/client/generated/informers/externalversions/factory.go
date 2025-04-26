@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	internalinterfaces "github.com/openebs/maya/pkg/client/generated/informers/externalversions/internalinterfaces"
-	openebsio "github.com/openebs/maya/pkg/client/generated/informers/externalversions/openebs.io"
+	versioned "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	internalinterfaces "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions/internalinterfaces"
+	openebsio "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions/openebs.io"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

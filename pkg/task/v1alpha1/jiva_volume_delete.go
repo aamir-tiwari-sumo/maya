@@ -18,8 +18,8 @@ package v1alpha1
 
 import (
 	"fmt"
-	rest "github.com/openebs/maya/pkg/client/http/v1alpha1"
-	jp "github.com/openebs/maya/pkg/jsonpath/v1alpha1"
+	rest "github.com/aamir-tiwari-sumo/maya/pkg/client/http/v1alpha1"
+	jp "github.com/aamir-tiwari-sumo/maya/pkg/jsonpath/v1alpha1"
 )
 
 // jivaVolumeDelete represents a jiva volume delete command

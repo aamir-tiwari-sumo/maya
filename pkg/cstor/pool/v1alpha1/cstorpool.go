@@ -17,12 +17,12 @@ limitations under the License.
 package v1alpha1
 
 import (
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
-	//clientset "github.com/openebs/maya/pkg/client/clientset/versioned"
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
+	//clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/clientset/versioned"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
 )
 
 const (

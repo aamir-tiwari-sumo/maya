@@ -17,7 +17,7 @@ package v1alpha1
 import (
 	"errors"
 
-	types "github.com/openebs/maya/pkg/exec"
+	types "github.com/aamir-tiwari-sumo/maya/pkg/exec"
 )
 
 // runner is used to mock os/exec.

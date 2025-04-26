@@ -18,10 +18,10 @@ package spc
 import (
 	"time"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	openebsFakeClientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned/fake"
-	informers "github.com/openebs/maya/pkg/client/generated/informers/externalversions"
-	ndmFakeClientset "github.com/openebs/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset/fake"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/fake"
+	informers "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions"
+	ndmFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset/fake"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/fake"
 

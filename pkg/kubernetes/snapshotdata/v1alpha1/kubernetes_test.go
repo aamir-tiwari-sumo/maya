@@ -19,8 +19,8 @@ import (
 	"errors"
 	"testing"
 
-	snapshotapi "github.com/openebs/maya/pkg/apis/openebs.io/snapshot/v1"
-	clientset "github.com/openebs/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset"
+	snapshotapi "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/snapshot/v1"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 )

@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"strings"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	env "github.com/openebs/maya/pkg/env/v1alpha1"
-	patch "github.com/openebs/maya/pkg/patch/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	env "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
+	patch "github.com/aamir-tiwari-sumo/maya/pkg/patch/v1alpha1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

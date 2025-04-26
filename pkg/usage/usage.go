@@ -16,7 +16,7 @@ limitations under the License.
 package usage
 
 import (
-	k8sapi "github.com/openebs/maya/pkg/client/k8s/v1alpha1"
+	k8sapi "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s/v1alpha1"
 )
 
 // Usage struct represents all information about a usage metric sent to

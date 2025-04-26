@@ -19,7 +19,7 @@ package v1alpha1
 import (
 	"testing"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 )
 
 func TestBuilderWithName(t *testing.T) {

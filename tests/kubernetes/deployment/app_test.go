@@ -19,9 +19,9 @@ package app
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	con "github.com/openebs/maya/pkg/kubernetes/container/v1alpha1"
-	deploy "github.com/openebs/maya/pkg/kubernetes/deployment/appsv1/v1alpha1"
-	pts "github.com/openebs/maya/pkg/kubernetes/podtemplatespec/v1alpha1"
+	con "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/container/v1alpha1"
+	deploy "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/deployment/appsv1/v1alpha1"
+	pts "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/podtemplatespec/v1alpha1"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

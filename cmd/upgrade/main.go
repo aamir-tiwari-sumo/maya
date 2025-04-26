@@ -17,8 +17,8 @@ limitations under the License.
 package main
 
 import (
-	"github.com/openebs/maya/cmd/upgrade/executor"
-	mlogger "github.com/openebs/maya/pkg/logs"
+	"github.com/aamir-tiwari-sumo/maya/cmd/upgrade/executor"
+	mlogger "github.com/aamir-tiwari-sumo/maya/pkg/logs"
 )
 
 func main() {

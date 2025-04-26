@@ -19,7 +19,7 @@ package v1alpha2
 //TODO: While using these packages UnitTest must be written to corresponding function
 
 import (
-	ndm "github.com/openebs/maya/pkg/apis/openebs.io/ndm/v1alpha1"
+	ndm "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/ndm/v1alpha1"
 )
 
 // ListBuilder is the builder object for BlockDeviceList

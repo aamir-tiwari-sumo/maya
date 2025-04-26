@@ -19,11 +19,11 @@ package v1alpha1
 import (
 	"context"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	k8s "github.com/openebs/maya/pkg/client/k8s/v1alpha1"
-	menv "github.com/openebs/maya/pkg/env/v1alpha1"
-	template "github.com/openebs/maya/pkg/template/v1alpha1"
-	"github.com/openebs/maya/pkg/version"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	k8s "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s/v1alpha1"
+	menv "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
+	template "github.com/aamir-tiwari-sumo/maya/pkg/template/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/version"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"

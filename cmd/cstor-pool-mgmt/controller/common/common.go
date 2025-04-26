@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/pool"
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/volumereplica"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/pool"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/volumereplica"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"
 )

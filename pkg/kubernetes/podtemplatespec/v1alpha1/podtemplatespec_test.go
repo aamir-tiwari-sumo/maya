@@ -19,7 +19,7 @@ package v1alpha1
 import (
 	"testing"
 
-	conatiner "github.com/openebs/maya/pkg/kubernetes/container/v1alpha1"
+	conatiner "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/container/v1alpha1"
 	corev1 "k8s.io/api/core/v1"
 )
 

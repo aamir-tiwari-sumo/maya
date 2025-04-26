@@ -22,9 +22,9 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/common"
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/volumereplica"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/common"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/volumereplica"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

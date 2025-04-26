@@ -19,7 +19,7 @@ limitations under the License.
 package scheme
 
 import (
-	openebsv1beta1 "github.com/openebs/maya/pkg/apis/openebs.io/runtask/v1beta1"
+	openebsv1beta1 "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/runtask/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

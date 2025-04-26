@@ -28,7 +28,7 @@ ENV GO111MODULE=on \
   RELEASE_TAG=${RELEASE_TAG} \
   BRANCH=${BRANCH}
 
-WORKDIR /go/src/github.com/openebs/maya/
+WORKDIR /go/src/github.com/aamir-tiwari-sumo/maya/
 
 RUN apt-get update && apt-get install -y make git
 
@@ -52,6 +52,6 @@ LABEL org.label-schema.build-date=$DBUILD_DATE
 LABEL org.label-schema.vcs-url=$DBUILD_REPO_URL
 LABEL org.label-schema.url=$DBUILD_SITE_URL
 
-COPY --from=build /go/src/github.com/openebs/maya/bin/upgrade/upgrade /usr/local/bin/upgrade
+COPY --from=build /go/src/github.com/aamir-tiwari-sumo/maya/bin/upgrade/upgrade /usr/local/bin/upgrade
 
 ENTRYPOINT ["upgrade"]

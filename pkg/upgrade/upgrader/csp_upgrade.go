@@ -23,11 +23,11 @@ import (
 
 	"k8s.io/klog"
 
-	utask "github.com/openebs/maya/pkg/apis/openebs.io/upgrade/v1alpha1"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	deploy "github.com/openebs/maya/pkg/kubernetes/deployment/appsv1/v1alpha1"
-	templates "github.com/openebs/maya/pkg/upgrade/templates/v1"
-	"github.com/openebs/maya/pkg/util"
+	utask "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/upgrade/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	deploy "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/deployment/appsv1/v1alpha1"
+	templates "github.com/aamir-tiwari-sumo/maya/pkg/upgrade/templates/v1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	errors "github.com/pkg/errors"
 	appsv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -19,7 +19,7 @@ package v1alpha1
 import (
 	"strings"
 
-	"github.com/openebs/maya/pkg/version"
+	"github.com/aamir-tiwari-sumo/maya/pkg/version"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

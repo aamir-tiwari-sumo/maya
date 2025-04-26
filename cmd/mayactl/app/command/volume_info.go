@@ -24,11 +24,11 @@ import (
 	"strconv"
 	"strings"
 
-	client "github.com/openebs/maya/pkg/client/jiva"
-	k8sclient "github.com/openebs/maya/pkg/client/k8s"
-	"github.com/openebs/maya/pkg/client/mapiserver"
-	"github.com/openebs/maya/pkg/util"
-	v1 "github.com/openebs/maya/types/v1"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/client/jiva"
+	k8sclient "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/mapiserver"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
+	v1 "github.com/aamir-tiwari-sumo/maya/types/v1"
 	"github.com/spf13/cobra"
 )
 

@@ -23,8 +23,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	client "github.com/openebs/maya/pkg/client/jiva"
-	"github.com/openebs/maya/types/v1"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/client/jiva"
+	"github.com/aamir-tiwari-sumo/maya/types/v1"
 )
 
 const (

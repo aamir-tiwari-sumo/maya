@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v1beta1 "github.com/openebs/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset/typed/runtask/v1beta1"
+	v1beta1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset/typed/runtask/v1beta1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

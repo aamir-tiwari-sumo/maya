@@ -19,8 +19,8 @@ limitations under the License.
 package v1beta1
 
 import (
-	v1beta1 "github.com/openebs/maya/pkg/apis/openebs.io/runtask/v1beta1"
-	"github.com/openebs/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset/scheme"
+	v1beta1 "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/runtask/v1beta1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

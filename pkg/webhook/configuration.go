@@ -21,14 +21,14 @@ import (
 	"os"
 	"strings"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	menv "github.com/openebs/maya/pkg/env/v1alpha1"
-	deploy "github.com/openebs/maya/pkg/kubernetes/deployment/appsv1/v1alpha1"
-	secret "github.com/openebs/maya/pkg/kubernetes/secret"
-	svc "github.com/openebs/maya/pkg/kubernetes/service/v1alpha1"
-	validate "github.com/openebs/maya/pkg/kubernetes/webhook/validate/v1alpha1"
-	"github.com/openebs/maya/pkg/util"
-	"github.com/openebs/maya/pkg/version"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	menv "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
+	deploy "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/deployment/appsv1/v1alpha1"
+	secret "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/secret"
+	svc "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/service/v1alpha1"
+	validate "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/webhook/validate/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/version"
 	"github.com/pkg/errors"
 	v1 "k8s.io/api/admissionregistration/v1"
 	appsv1 "k8s.io/api/apps/v1"
@@ -513,7 +513,7 @@ func addCVCWithUpdateRule(config *v1.ValidatingWebhookConfiguration) {
 	if util.IsCurrentLessThanNewVersion(config.Labels[string(apis.OpenEBSVersionKey)], "1.8.0") {
 		// Currenly we have only one webhook validation so CVC rule in under
 		// same webhook.
-		// https://github.com/openebs/maya/blob/9417d96abdaf41a2dbfcdbfb113fb73c83e6cf42/pkg/webhook/configuration.go#L212
+		// https://github.com/aamir-tiwari-sumo/maya/blob/9417d96abdaf41a2dbfcdbfb113fb73c83e6cf42/pkg/webhook/configuration.go#L212
 		config.Webhooks[0].Rules = append(config.Webhooks[0].Rules, cvcRuleWithOperations)
 	}
 }

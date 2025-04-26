@@ -17,11 +17,11 @@ limitations under the License.
 package spc
 
 import (
-	nodeselect "github.com/openebs/maya/pkg/algorithm/nodeselect/v1alpha1"
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	"github.com/openebs/maya/pkg/storagepool"
-	spcv1alpha1 "github.com/openebs/maya/pkg/storagepoolclaim/v1alpha1"
+	nodeselect "github.com/aamir-tiwari-sumo/maya/pkg/algorithm/nodeselect/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/storagepool"
+	spcv1alpha1 "github.com/aamir-tiwari-sumo/maya/pkg/storagepoolclaim/v1alpha1"
 	"github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"

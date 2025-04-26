@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	cas "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	. "github.com/openebs/maya/pkg/msg/v1alpha1"
+	cas "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	. "github.com/aamir-tiwari-sumo/maya/pkg/msg/v1alpha1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

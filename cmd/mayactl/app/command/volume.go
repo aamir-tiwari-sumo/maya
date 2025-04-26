@@ -28,10 +28,10 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	"github.com/openebs/maya/pkg/client/mapiserver"
-	"github.com/openebs/maya/pkg/util"
-	"github.com/openebs/maya/types/v1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/mapiserver"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/types/v1"
 	"github.com/spf13/cobra"
 )
 

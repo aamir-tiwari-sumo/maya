@@ -21,7 +21,7 @@ import (
 
 	"k8s.io/klog"
 
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/start-controller"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/start-controller"
 	"github.com/spf13/cobra"
 )
 

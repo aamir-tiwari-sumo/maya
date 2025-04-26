@@ -22,8 +22,8 @@ import (
 	"context"
 	"time"
 
-	v1 "github.com/openebs/maya/pkg/apis/openebs.io/snapshot/v1"
-	scheme "github.com/openebs/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset/scheme"
+	v1 "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/snapshot/v1"
+	scheme "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset/scheme"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

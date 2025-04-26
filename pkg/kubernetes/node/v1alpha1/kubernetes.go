@@ -20,7 +20,7 @@ import (
 	"strings"
 	"sync"
 
-	client "github.com/openebs/maya/pkg/kubernetes/client/v1alpha1"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/client/v1alpha1"
 	"github.com/pkg/errors"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -149,7 +149,7 @@ func NewKubeClient(opts ...KubeClientBuildOption) *Kubeclient {
 //
 // ```go
 // import (
-//  node "github.com/openebs/maya/pkg/kubernetes/node/v1alpha1"
+//  node "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/node/v1alpha1"
 // )
 //
 // node.KubeClientInstanceOrDie().Get(...)

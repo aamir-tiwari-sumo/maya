@@ -17,7 +17,7 @@ package v1alpha1
 import (
 	"strings"
 
-	"github.com/openebs/maya/pkg/exec"
+	"github.com/aamir-tiwari-sumo/maya/pkg/exec"
 	"github.com/pkg/errors"
 )
 

@@ -27,7 +27,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/openebs/maya/types/v1"
+	"github.com/aamir-tiwari-sumo/maya/types/v1"
 )
 
 const (

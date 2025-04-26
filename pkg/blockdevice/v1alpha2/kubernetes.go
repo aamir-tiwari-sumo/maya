@@ -21,10 +21,10 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	kclient "github.com/openebs/maya/pkg/kubernetes/client/v1alpha1"
+	kclient "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/client/v1alpha1"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/ndm/v1alpha1"
-	clientset "github.com/openebs/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/ndm/v1alpha1"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset"
 	"github.com/pkg/errors"
 )
 

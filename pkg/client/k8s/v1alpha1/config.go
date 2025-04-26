@@ -17,7 +17,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	menv "github.com/openebs/maya/pkg/env/v1alpha1"
+	menv "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
 	"github.com/pkg/errors"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"

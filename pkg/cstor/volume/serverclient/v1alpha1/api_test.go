@@ -17,7 +17,7 @@ package v1alpha1
 import (
 	"testing"
 
-	"github.com/openebs/maya/pkg/client/generated/cstor-volume-mgmt/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/generated/cstor-volume-mgmt/v1alpha1"
 )
 
 type TestUnixSock struct{}

@@ -21,8 +21,8 @@ import (
 
 	"github.com/ghodss/yaml"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	"github.com/openebs/maya/pkg/template"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/template"
 	api_apps_v1 "k8s.io/api/apps/v1"
 	api_apps_v1beta1 "k8s.io/api/apps/v1beta1"
 	api_batch_v1 "k8s.io/api/batch/v1"

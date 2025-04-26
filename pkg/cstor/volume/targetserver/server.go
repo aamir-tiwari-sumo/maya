@@ -27,7 +27,7 @@ import (
 
 	"k8s.io/klog"
 
-	cstorv1alpha1 "github.com/openebs/maya/pkg/cstor/volume/v1alpha1"
+	cstorv1alpha1 "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volume/v1alpha1"
 	"github.com/pkg/errors"
 )
 

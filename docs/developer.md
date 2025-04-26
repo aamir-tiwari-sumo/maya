@@ -17,7 +17,7 @@
 
 ### Fork in the cloud
 
-1. Visit https://github.com/openebs/maya.
+1. Visit https://github.com/aamir-tiwari-sumo/maya.
 2. Click `Fork` button (top right) to establish a cloud-based fork.
 
 ### Clone fork to local host
@@ -35,7 +35,7 @@ git clone https://github.com/$user/maya.git
 
 # Configure remote upstream
 cd path/to/directory/openebs/maya
-git remote add upstream https://github.com/openebs/maya.git
+git remote add upstream https://github.com/aamir-tiwari-sumo/maya.git
 
 # Never push to upstream master
 git remote set-url --push upstream no_push
@@ -70,14 +70,14 @@ $ cd path/to/directory/openebs/maya
  $ git remote -v
  origin   https://github.com/$user/maya.git (fetch)
  origin   https://github.com/$user/maya.git (push)
- upstream https://github.com/openebs/maya.git (fetch)
+ upstream https://github.com/aamir-tiwari-sumo/maya.git (fetch)
  upstream no_push (push)
  ```
 
  If the upstream is missing, add it by using below command.
 
  ```sh
- $ git remote add upstream https://github.com/openebs/maya.git
+ $ git remote add upstream https://github.com/aamir-tiwari-sumo/maya.git
  ```
 
  Fetch all the changes from the upstream master branch.
@@ -208,4 +208,4 @@ Before you raise the Pull Requests, ensure you have reviewed the checklist in th
 - Ensure that you have added the required unit tests for the bug fixes or new feature that you have introduced.
 - Ensure your commits history is clean with proper header and descriptions.
 
-Go to the [openebs/maya github](https://github.com/openebs/maya) and follow the Open Pull Request link to raise your PR from your development branch.
+Go to the [openebs/maya github](https://github.com/aamir-tiwari-sumo/maya) and follow the Open Pull Request link to raise your PR from your development branch.

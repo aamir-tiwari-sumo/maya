@@ -24,8 +24,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	tests "github.com/openebs/maya/tests"
-	"github.com/openebs/maya/tests/artifacts"
+	tests "github.com/aamir-tiwari-sumo/maya/tests"
+	"github.com/aamir-tiwari-sumo/maya/tests/artifacts"
 
 	// auth plugins
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"

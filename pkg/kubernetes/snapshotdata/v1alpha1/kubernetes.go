@@ -20,9 +20,9 @@ import (
 	"context"
 	"encoding/json"
 
-	snapshotapi "github.com/openebs/maya/pkg/apis/openebs.io/snapshot/v1"
-	clientset "github.com/openebs/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset"
-	client "github.com/openebs/maya/pkg/kubernetes/client/v1alpha1"
+	snapshotapi "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/snapshot/v1"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/client/v1alpha1"
 	errors "github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"

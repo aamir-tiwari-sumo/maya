@@ -24,16 +24,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openebs/maya/pkg/alertlog"
+	"github.com/aamir-tiwari-sumo/maya/pkg/alertlog"
 
 	"encoding/json"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	"github.com/openebs/maya/pkg/debug"
-	"github.com/openebs/maya/pkg/hash"
-	"github.com/openebs/maya/pkg/util"
-	zfs "github.com/openebs/maya/pkg/zfs/cmd/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	"github.com/aamir-tiwari-sumo/maya/pkg/debug"
+	"github.com/aamir-tiwari-sumo/maya/pkg/hash"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
+	zfs "github.com/aamir-tiwari-sumo/maya/pkg/zfs/cmd/v1alpha1"
 	"github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"

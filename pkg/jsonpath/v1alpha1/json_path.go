@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	. "github.com/openebs/maya/pkg/msg/v1alpha1"
+	. "github.com/aamir-tiwari-sumo/maya/pkg/msg/v1alpha1"
 	ft "k8s.io/client-go/third_party/forked/golang/template"
 	jp "k8s.io/client-go/util/jsonpath"
 	"reflect"

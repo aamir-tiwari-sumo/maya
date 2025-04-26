@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/pool"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/pool"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 	"k8s.io/klog"
 
-	//openebsFakeClientset "github.com/openebs/maya/pkg/client/clientset/versioned/fake"
-	openebsFakeClientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned/fake"
+	//openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/clientset/versioned/fake"
+	openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/fake"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

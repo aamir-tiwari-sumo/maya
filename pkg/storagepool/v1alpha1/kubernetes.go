@@ -22,9 +22,9 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	client "github.com/openebs/maya/pkg/kubernetes/client/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/client/v1alpha1"
 	errors "github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

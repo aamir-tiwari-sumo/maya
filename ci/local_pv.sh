@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ARTIFACTS_DIR="$GOPATH/src/github.com/openebs/maya/integration-tests/artifacts"
+ARTIFACTS_DIR="$GOPATH/src/github.com/aamir-tiwari-sumo/maya/integration-tests/artifacts"
 kubectl apply -f ${ARTIFACTS_DIR}/openebs-local-provisioner.yaml
 kubectl apply -f ${ARTIFACTS_DIR}/sc-hostpath.yaml
 sleep 30

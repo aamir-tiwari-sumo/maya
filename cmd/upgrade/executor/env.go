@@ -17,7 +17,7 @@ limitations under the License.
 package executor
 
 import (
-	menv "github.com/openebs/maya/pkg/env/v1alpha1"
+	menv "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
 )
 
 //This file defines the environement variable names that are specific

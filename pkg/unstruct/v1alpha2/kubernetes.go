@@ -20,8 +20,8 @@ import (
 	"context"
 	"strings"
 
-	k8s "github.com/openebs/maya/pkg/client/k8s/v1alpha1"
-	client "github.com/openebs/maya/pkg/kubernetes/client/v1alpha1"
+	k8s "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s/v1alpha1"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/client/v1alpha1"
 	errors "github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

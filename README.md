@@ -1,7 +1,7 @@
 [![Build Status](https://app.travis-ci.com/openebs/maya.svg?branch=v2.12.x)](https://app.travis-ci.com/openebs/maya)
-[![Go Report](https://goreportcard.com/badge/github.com/openebs/maya)](https://goreportcard.com/report/github.com/openebs/maya)
+[![Go Report](https://goreportcard.com/badge/github.com/aamir-tiwari-sumo/maya)](https://goreportcard.com/report/github.com/aamir-tiwari-sumo/maya)
 [![codecov](https://codecov.io/gh/openebs/maya/branch/v2.12.x/graph/badge.svg?token=nDwloue1T5)](https://codecov.io/gh/openebs/maya)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/openebs/maya/blob/HEAD/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/aamir-tiwari-sumo/maya/blob/HEAD/LICENSE)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopenebs%2Fmaya.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopenebs%2Fmaya?ref=badge_shield)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1753/badge)](https://bestpractices.coreinfrastructure.org/projects/1753)
 
@@ -40,7 +40,7 @@ Please refer to our documentation at [OpenEBS Documentation](http://openebs.io/)
 Prior to creating a release tag on this repository on `v2.12.x` branch with the required fixes, ensure that the dependent data engine repositories and provisioner are tagged. Once the code is merged, use the following sequence to release a new version for the legacy components:
 - New release tag on v2.12.x branches of [openebs/cstor](https://github.com/openebs/cstor) and [openebs/libcstor](https://github.com/openebs/libcstor)
 - New release tag on v2.12.x branches of [openebs/openebs-k8s-provisioner](https://github.com/openebs/openebs-k8s-provisioner) and [openebs/m-exporter](https://github.com/openebs/m-exporter)
-- Tag a new release under this repo [openebs/maya](https://github.com/openebs/maya)
+- Tag a new release under this repo [openebs/maya](https://github.com/aamir-tiwari-sumo/maya)
 - Tag a new release under [openebs/velero-plugin](https://github.com/openebs/velero-plugin)
 
 ## Contributing

@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/template"
 
-	cmd "github.com/openebs/maya/pkg/task/v1alpha1"
-	"github.com/openebs/maya/pkg/util"
+	cmd "github.com/aamir-tiwari-sumo/maya/pkg/task/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 )
 
 // delete returns a new instance of delete based runtask command

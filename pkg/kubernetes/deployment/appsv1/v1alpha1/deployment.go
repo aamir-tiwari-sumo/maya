@@ -14,8 +14,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	stringer "github.com/openebs/maya/pkg/apis/stringer/v1alpha1"
-	templatespec "github.com/openebs/maya/pkg/kubernetes/podtemplatespec/v1alpha1"
+	stringer "github.com/aamir-tiwari-sumo/maya/pkg/apis/stringer/v1alpha1"
+	templatespec "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/podtemplatespec/v1alpha1"
 	errors "github.com/pkg/errors"
 	appsv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

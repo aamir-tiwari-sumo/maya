@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	"github.com/openebs/maya/pkg/snapshot/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/snapshot/v1alpha1"
 	"k8s.io/klog"
 )
 

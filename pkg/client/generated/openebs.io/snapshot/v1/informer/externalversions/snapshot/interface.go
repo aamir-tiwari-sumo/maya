@@ -19,8 +19,8 @@ limitations under the License.
 package snapshot
 
 import (
-	internalinterfaces "github.com/openebs/maya/pkg/client/generated/openebs.io/snapshot/v1/informer/externalversions/internalinterfaces"
-	v1 "github.com/openebs/maya/pkg/client/generated/openebs.io/snapshot/v1/informer/externalversions/snapshot/v1"
+	internalinterfaces "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/snapshot/v1/informer/externalversions/internalinterfaces"
+	v1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/snapshot/v1/informer/externalversions/snapshot/v1"
 )
 
 // Interface provides access to each of this group's versions.

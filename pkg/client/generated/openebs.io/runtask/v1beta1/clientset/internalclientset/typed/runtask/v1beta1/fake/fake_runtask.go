@@ -21,7 +21,7 @@ package fake
 import (
 	"context"
 
-	v1beta1 "github.com/openebs/maya/pkg/apis/openebs.io/runtask/v1beta1"
+	v1beta1 "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/runtask/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

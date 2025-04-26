@@ -17,12 +17,12 @@ limitations under the License.
 package v1alpha1
 
 import (
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	blockdevice "github.com/openebs/maya/pkg/blockdevice/v1alpha1"
-	"github.com/openebs/maya/pkg/client/k8s"
-	cstorpool "github.com/openebs/maya/pkg/cstor/pool/v1alpha1"
-	env "github.com/openebs/maya/pkg/env/v1alpha1"
-	sp "github.com/openebs/maya/pkg/sp/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	blockdevice "github.com/aamir-tiwari-sumo/maya/pkg/blockdevice/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/k8s"
+	cstorpool "github.com/aamir-tiwari-sumo/maya/pkg/cstor/pool/v1alpha1"
+	env "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
+	sp "github.com/aamir-tiwari-sumo/maya/pkg/sp/v1alpha1"
 )
 
 const (

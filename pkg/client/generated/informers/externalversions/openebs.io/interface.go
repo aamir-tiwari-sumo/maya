@@ -19,8 +19,8 @@ limitations under the License.
 package openebs
 
 import (
-	internalinterfaces "github.com/openebs/maya/pkg/client/generated/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/openebs/maya/pkg/client/generated/informers/externalversions/openebs.io/v1alpha1"
+	internalinterfaces "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions/openebs.io/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

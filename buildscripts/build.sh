@@ -12,9 +12,9 @@ DIR="$( cd -P "$( dirname "$SOURCE" )/../" && pwd )"
 cd "$DIR"
 
 # Get the git commit
-if [ -f $GOPATH/src/github.com/openebs/maya/GITCOMMIT ];
+if [ -f $GOPATH/src/github.com/aamir-tiwari-sumo/maya/GITCOMMIT ];
 then
-    GIT_COMMIT="$(cat $GOPATH/src/github.com/openebs/maya/GITCOMMIT)"
+    GIT_COMMIT="$(cat $GOPATH/src/github.com/aamir-tiwari-sumo/maya/GITCOMMIT)"
 else
     GIT_COMMIT="$(git rev-parse HEAD)"
 fi
@@ -25,7 +25,7 @@ if [[ -n "$RELEASE_TAG" ]] && [[ $RELEASE_TAG != *"RC"* ]]; then
 fi
 
 # Get the version details
-VERSION_META="$(cat $GOPATH/src/github.com/openebs/maya/BUILDMETA)"
+VERSION_META="$(cat $GOPATH/src/github.com/aamir-tiwari-sumo/maya/BUILDMETA)"
 
 # Get the version details
 # Determine the current branch
@@ -119,10 +119,10 @@ if [ $GOOS = "windows" ]; then
 fi
 
 env GOOS=$GOOS GOARCH=$GOARCH go build ${BUILD_TAG} -ldflags \
-    "-X github.com/openebs/maya/pkg/version.GitCommit=${GIT_COMMIT} \
+    "-X github.com/aamir-tiwari-sumo/maya/pkg/version.GitCommit=${GIT_COMMIT} \
     -X main.CtlName='${CTLNAME}' \
-    -X github.com/openebs/maya/pkg/version.Version=${VERSION} \
-    -X github.com/openebs/maya/pkg/version.VersionMeta=${VERSION_META}"\
+    -X github.com/aamir-tiwari-sumo/maya/pkg/version.Version=${VERSION} \
+    -X github.com/aamir-tiwari-sumo/maya/pkg/version.VersionMeta=${VERSION_META}"\
     -o $output_name\
     ./cmd/${CTLNAME}
 

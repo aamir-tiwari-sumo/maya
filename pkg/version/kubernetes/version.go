@@ -21,7 +21,7 @@ limitations under the License.
 package kubernetes
 
 import (
-	msg "github.com/openebs/maya/pkg/msg/v1alpha1"
+	msg "github.com/aamir-tiwari-sumo/maya/pkg/msg/v1alpha1"
 	"github.com/pkg/errors"
 	kubeval "k8s.io/apimachinery/pkg/util/validation"
 	"regexp"

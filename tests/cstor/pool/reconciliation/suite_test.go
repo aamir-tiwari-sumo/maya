@@ -18,11 +18,11 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/openebs/maya/tests"
-	"github.com/openebs/maya/tests/cstor"
+	"github.com/aamir-tiwari-sumo/maya/tests"
+	"github.com/aamir-tiwari-sumo/maya/tests/cstor"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	spc "github.com/openebs/maya/pkg/storagepoolclaim/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	spc "github.com/aamir-tiwari-sumo/maya/pkg/storagepoolclaim/v1alpha1"
 
 	// auth plugins
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"

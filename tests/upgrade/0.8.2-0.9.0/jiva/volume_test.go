@@ -22,8 +22,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	jiva "github.com/openebs/maya/pkg/client/jiva"
-	"github.com/openebs/maya/tests"
+	jiva "github.com/aamir-tiwari-sumo/maya/pkg/client/jiva"
+	"github.com/aamir-tiwari-sumo/maya/tests"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

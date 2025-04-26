@@ -22,7 +22,7 @@ import (
 
 	"k8s.io/client-go/kubernetes/fake"
 
-	ndmFakeClient "github.com/openebs/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset/fake"
+	ndmFakeClient "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset/fake"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

@@ -21,7 +21,7 @@ import (
 	"text/template"
 
 	"github.com/ghodss/yaml"
-	toleration "github.com/openebs/maya/pkg/kubernetes/toleration/v1alpha1"
+	toleration "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/toleration/v1alpha1"
 	"github.com/pkg/errors"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

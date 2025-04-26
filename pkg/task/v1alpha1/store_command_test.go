@@ -17,8 +17,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	. "github.com/openebs/maya/pkg/msg/v1alpha1"
-	"github.com/openebs/maya/pkg/util"
+	. "github.com/aamir-tiwari-sumo/maya/pkg/msg/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"testing"
 )
 

@@ -18,14 +18,14 @@ package spc
 import (
 	"context"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 
 	"os"
 	"strconv"
 	"testing"
 
-	openebsFakeClientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned/fake"
-	env "github.com/openebs/maya/pkg/env/v1alpha1"
+	openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/fake"
+	env "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"

@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"github.com/ghodss/yaml"
-	http "github.com/openebs/maya/pkg/util/http/v1alpha1"
+	http "github.com/aamir-tiwari-sumo/maya/pkg/util/http/v1alpha1"
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )

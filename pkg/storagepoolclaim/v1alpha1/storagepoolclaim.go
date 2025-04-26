@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/openebs/maya/pkg/util"
-	"github.com/openebs/maya/pkg/version"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/version"
 	"github.com/pkg/errors"
 	"k8s.io/klog"
 
-	bdc "github.com/openebs/maya/pkg/blockdeviceclaim/v1alpha1"
-	csp "github.com/openebs/maya/pkg/cstor/pool/v1alpha3"
-	env "github.com/openebs/maya/pkg/env/v1alpha1"
+	bdc "github.com/aamir-tiwari-sumo/maya/pkg/blockdeviceclaim/v1alpha1"
+	csp "github.com/aamir-tiwari-sumo/maya/pkg/cstor/pool/v1alpha3"
+	env "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 	"k8s.io/apimachinery/pkg/types"
 )
 

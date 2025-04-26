@@ -17,8 +17,8 @@ package v1alpha1
 import (
 	"fmt"
 
-	k8s "github.com/openebs/maya/pkg/client/k8s/v1alpha1"
-	unstruct "github.com/openebs/maya/pkg/unstruct/v1alpha2"
+	k8s "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s/v1alpha1"
+	unstruct "github.com/aamir-tiwari-sumo/maya/pkg/unstruct/v1alpha2"
 	"gopkg.in/yaml.v2"
 
 	"github.com/pkg/errors"

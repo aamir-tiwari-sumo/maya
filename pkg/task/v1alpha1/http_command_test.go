@@ -19,7 +19,7 @@ package v1alpha1
 import (
 	"testing"
 
-	. "github.com/openebs/maya/pkg/client/http/v1alpha1"
+	. "github.com/aamir-tiwari-sumo/maya/pkg/client/http/v1alpha1"
 )
 
 var _ Runner = &httpCommand{}

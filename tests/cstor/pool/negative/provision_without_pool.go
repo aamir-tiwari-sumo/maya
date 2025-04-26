@@ -20,10 +20,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/pool"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	"github.com/openebs/maya/tests"
-	"github.com/openebs/maya/tests/cstor"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/pool"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/tests"
+	"github.com/aamir-tiwari-sumo/maya/tests/cstor"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 )

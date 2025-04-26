@@ -29,14 +29,14 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog"
 
-	"github.com/openebs/maya/cmd/cstor-volume-mgmt/controller/common"
-	volumecontroller "github.com/openebs/maya/cmd/cstor-volume-mgmt/controller/volume-controller"
-	"github.com/openebs/maya/cmd/cstor-volume-mgmt/volume"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-volume-mgmt/controller/common"
+	volumecontroller "github.com/aamir-tiwari-sumo/maya/cmd/cstor-volume-mgmt/controller/volume-controller"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-volume-mgmt/volume"
 
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	informers "github.com/openebs/maya/pkg/client/generated/informers/externalversions"
-	"github.com/openebs/maya/pkg/signals"
-	"github.com/openebs/maya/pkg/util"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	informers "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions"
+	"github.com/aamir-tiwari-sumo/maya/pkg/signals"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 )
 
 const (

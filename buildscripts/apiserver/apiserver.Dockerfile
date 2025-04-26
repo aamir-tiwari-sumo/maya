@@ -28,7 +28,7 @@ ENV GO111MODULE=on \
   RELEASE_TAG=${RELEASE_TAG} \
   BRANCH=${BRANCH}
 
-WORKDIR /go/src/github.com/openebs/maya/
+WORKDIR /go/src/github.com/aamir-tiwari-sumo/maya/
 
 RUN apt-get update && apt-get install -y make git
 
@@ -67,10 +67,10 @@ LABEL org.label-schema.url=$DBUILD_SITE_URL
 RUN mkdir -p /etc/apiserver/orchprovider
 RUN mkdir -p /etc/apiserver/specs
 
-COPY --from=build /go/src/github.com/openebs/maya/buildscripts/apiserver/demo-vol1.yaml /etc/apiserver/specs/
-COPY --from=build /go/src/github.com/openebs/maya/bin/apiserver/maya-apiserver /usr/local/bin/
-COPY --from=build /go/src/github.com/openebs/maya/bin/maya/mayactl /usr/local/bin/
-COPY --from=build /go/src/github.com/openebs/maya/buildscripts/apiserver/entrypoint.sh /usr/local/bin/
+COPY --from=build /go/src/github.com/aamir-tiwari-sumo/maya/buildscripts/apiserver/demo-vol1.yaml /etc/apiserver/specs/
+COPY --from=build /go/src/github.com/aamir-tiwari-sumo/maya/bin/apiserver/maya-apiserver /usr/local/bin/
+COPY --from=build /go/src/github.com/aamir-tiwari-sumo/maya/bin/maya/mayactl /usr/local/bin/
+COPY --from=build /go/src/github.com/aamir-tiwari-sumo/maya/buildscripts/apiserver/entrypoint.sh /usr/local/bin/
 
 ENTRYPOINT entrypoint.sh "${MAYA_API_SERVER_NETWORK}"
 

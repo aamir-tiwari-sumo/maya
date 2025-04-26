@@ -19,8 +19,8 @@ package v1alpha1
 import (
 	"context"
 
-	ndm "github.com/openebs/maya/pkg/apis/openebs.io/ndm/v1alpha1"
-	env "github.com/openebs/maya/pkg/env/v1alpha1"
+	ndm "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/ndm/v1alpha1"
+	env "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
 	"github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

@@ -20,16 +20,16 @@ import (
 	"context"
 	"encoding/json"
 
-	openebs "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	ndm "github.com/openebs/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset"
+	openebs "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	ndm "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset"
 	errors "github.com/pkg/errors"
 
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	api_ndm_v1alpha1 "github.com/openebs/maya/pkg/apis/openebs.io/ndm/v1alpha1"
-	api_oe_v1alpha1 "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	env "github.com/openebs/maya/pkg/env/v1alpha1"
+	api_ndm_v1alpha1 "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/ndm/v1alpha1"
+	api_oe_v1alpha1 "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	env "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
 
 	api_apps_v1 "k8s.io/api/apps/v1"
 	api_apps_v1beta1 "k8s.io/api/apps/v1beta1"
@@ -41,8 +41,8 @@ import (
 	mach_apis_meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	typed_oe_v1alpha1 "github.com/openebs/maya/pkg/client/generated/clientset/versioned/typed/openebs.io/v1alpha1"
-	typed_ndm_v1alpha1 "github.com/openebs/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset/typed/ndm/v1alpha1"
+	typed_oe_v1alpha1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/typed/openebs.io/v1alpha1"
+	typed_ndm_v1alpha1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset/typed/ndm/v1alpha1"
 
 	typed_apps_v1 "k8s.io/client-go/kubernetes/typed/apps/v1"
 	typed_apps_v1beta1 "k8s.io/client-go/kubernetes/typed/apps/v1beta1"

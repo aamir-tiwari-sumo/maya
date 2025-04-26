@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 )
 
 /*

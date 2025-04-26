@@ -20,8 +20,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	pool "github.com/openebs/maya/pkg/storagepool"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	pool "github.com/aamir-tiwari-sumo/maya/pkg/storagepool"
 	"k8s.io/klog"
 )
 

@@ -19,18 +19,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openebs/maya/cmd/cstor-volume-mgmt/controller/common"
-	"github.com/openebs/maya/cmd/cstor-volume-mgmt/volume"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-volume-mgmt/controller/common"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-volume-mgmt/volume"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 
-	//openebsFakeClientset "github.com/openebs/maya/pkg/client/clientset/versioned/fake"
-	openebsFakeClientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned/fake"
+	//openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/clientset/versioned/fake"
+	openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/fake"
 
-	//informers "github.com/openebs/maya/pkg/client/informers/externalversions"
-	informers "github.com/openebs/maya/pkg/client/generated/informers/externalversions"
+	//informers "github.com/aamir-tiwari-sumo/maya/pkg/client/informers/externalversions"
+	informers "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions"
 
-	"github.com/openebs/maya/pkg/signals"
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/signals"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	kubeinformers "k8s.io/client-go/informers"

@@ -19,7 +19,7 @@ package v1alpha1
 import (
 	"encoding/json"
 
-	rest "github.com/openebs/maya/pkg/client/http/v1alpha1"
+	rest "github.com/aamir-tiwari-sumo/maya/pkg/client/http/v1alpha1"
 	"github.com/pkg/errors"
 )
 

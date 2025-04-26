@@ -19,8 +19,8 @@ limitations under the License.
 package runtask
 
 import (
-	internalinterfaces "github.com/openebs/maya/pkg/client/generated/openebs.io/runtask/v1beta1/informer/externalversions/internalinterfaces"
-	v1beta1 "github.com/openebs/maya/pkg/client/generated/openebs.io/runtask/v1beta1/informer/externalversions/runtask/v1beta1"
+	internalinterfaces "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/runtask/v1beta1/informer/externalversions/internalinterfaces"
+	v1beta1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/runtask/v1beta1/informer/externalversions/runtask/v1beta1"
 )
 
 // Interface provides access to each of this group's versions.

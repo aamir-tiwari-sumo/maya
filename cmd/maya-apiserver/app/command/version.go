@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/openebs/maya/pkg/version"
+	"github.com/aamir-tiwari-sumo/maya/pkg/version"
 	"github.com/spf13/cobra"
 )
 

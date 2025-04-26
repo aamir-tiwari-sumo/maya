@@ -23,12 +23,12 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	cvr "github.com/openebs/maya/pkg/cstor/volumereplica/v1alpha1"
-	pvc "github.com/openebs/maya/pkg/kubernetes/persistentvolumeclaim/v1alpha1"
-	sc "github.com/openebs/maya/pkg/kubernetes/storageclass/v1alpha1"
-	spc "github.com/openebs/maya/pkg/storagepoolclaim/v1alpha1"
-	"github.com/openebs/maya/tests/cstor"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	cvr "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volumereplica/v1alpha1"
+	pvc "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/persistentvolumeclaim/v1alpha1"
+	sc "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/storageclass/v1alpha1"
+	spc "github.com/aamir-tiwari-sumo/maya/pkg/storagepoolclaim/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/tests/cstor"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

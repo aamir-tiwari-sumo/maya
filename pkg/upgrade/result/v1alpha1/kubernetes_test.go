@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/upgrade/v1alpha1"
-	clientset "github.com/openebs/maya/pkg/client/generated/openebs.io/upgrade/v1alpha1/clientset/internalclientset"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/upgrade/v1alpha1"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/upgrade/v1alpha1/clientset/internalclientset"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 )

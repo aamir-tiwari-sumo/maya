@@ -32,12 +32,12 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/klog"
 
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/common"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/common"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	openebsScheme "github.com/openebs/maya/pkg/client/generated/clientset/versioned/scheme"
-	informers "github.com/openebs/maya/pkg/client/generated/informers/externalversions"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	openebsScheme "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/scheme"
+	informers "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions"
 )
 
 const restoreControllerName = "CStorRestore"

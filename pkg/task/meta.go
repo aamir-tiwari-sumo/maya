@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"github.com/ghodss/yaml"
-	"github.com/openebs/maya/pkg/template"
+	"github.com/aamir-tiwari-sumo/maya/pkg/template"
 	"k8s.io/klog"
 
-	m_k8s_client "github.com/openebs/maya/pkg/client/k8s"
+	m_k8s_client "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s"
 	mach_apis_meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

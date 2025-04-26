@@ -21,7 +21,7 @@ package internalinterfaces
 import (
 	time "time"
 
-	internalclientset "github.com/openebs/maya/pkg/client/generated/openebs.io/upgrade/v1alpha1/clientset/internalclientset"
+	internalclientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/upgrade/v1alpha1/clientset/internalclientset"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	cache "k8s.io/client-go/tools/cache"

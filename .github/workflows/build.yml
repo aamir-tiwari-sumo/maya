@@ -127,7 +127,7 @@ jobs:
             ${{ steps.docker_meta.outputs.tags }}
           build-args: |
             DBUILD_DATE=${{ steps.date.outputs.DATE }}
-            DBUILD_REPO_URL=https://github.com/openebs/maya
+            DBUILD_REPO_URL=https://github.com/aamir-tiwari-sumo/maya
             DBUILD_SITE_URL=https://openebs.io
             BRANCH=${{ env.BRANCH }}
 
@@ -212,7 +212,7 @@ jobs:
             ${{ steps.docker_meta.outputs.tags }}
           build-args: |
             DBUILD_DATE=${{ steps.date.outputs.DATE }}
-            DBUILD_REPO_URL=https://github.com/openebs/maya
+            DBUILD_REPO_URL=https://github.com/aamir-tiwari-sumo/maya
             DBUILD_SITE_URL=https://openebs.io
             BRANCH=${{ env.BRANCH }}
             BASE_IMAGE=${{ env.IMAGE_ORG }}/cstor-base:${{ env.TAG }}
@@ -298,7 +298,7 @@ jobs:
             ${{ steps.docker_meta.outputs.tags }}
           build-args: |
             DBUILD_DATE=${{ steps.date.outputs.DATE }}
-            DBUILD_REPO_URL=https://github.com/openebs/maya
+            DBUILD_REPO_URL=https://github.com/aamir-tiwari-sumo/maya
             DBUILD_SITE_URL=https://openebs.io
             BRANCH=${{ env.BRANCH }}
 
@@ -383,7 +383,7 @@ jobs:
             ${{ steps.docker_meta.outputs.tags }}
           build-args: |
             DBUILD_DATE=${{ steps.date.outputs.DATE }}
-            DBUILD_REPO_URL=https://github.com/openebs/maya
+            DBUILD_REPO_URL=https://github.com/aamir-tiwari-sumo/maya
             DBUILD_SITE_URL=https://openebs.io
             BRANCH=${{ env.BRANCH }}
 
@@ -468,6 +468,6 @@ jobs:
             ${{ steps.docker_meta.outputs.tags }}
           build-args: |
             DBUILD_DATE=${{ steps.date.outputs.DATE }}
-            DBUILD_REPO_URL=https://github.com/openebs/maya
+            DBUILD_REPO_URL=https://github.com/aamir-tiwari-sumo/maya
             DBUILD_SITE_URL=https://openebs.io
             BRANCH=${{ env.BRANCH }}

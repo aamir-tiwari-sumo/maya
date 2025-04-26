@@ -19,8 +19,8 @@ package poolcontroller
 import (
 	"fmt"
 
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/common"
-	"github.com/openebs/maya/pkg/debug"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/common"
+	"github.com/aamir-tiwari-sumo/maya/pkg/debug"
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/cache"

@@ -29,21 +29,21 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog"
 
-	backupcontroller "github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/backup-controller"
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/common"
-	replicacontroller "github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/replica-controller"
-	restorecontroller "github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/restore"
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/pool"
+	backupcontroller "github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/backup-controller"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/common"
+	replicacontroller "github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/replica-controller"
+	restorecontroller "github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/restore"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/pool"
 
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	informers "github.com/openebs/maya/pkg/client/generated/informers/externalversions"
-	"github.com/openebs/maya/pkg/signals"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	informers "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions"
+	"github.com/aamir-tiwari-sumo/maya/pkg/signals"
 
-	poolcontroller "github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/pool-controller"
-	//poolcontroller2 "github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/new-pool-controller"
+	poolcontroller "github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/pool-controller"
+	//poolcontroller2 "github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/new-pool-controller"
 	//// for v1alpha2
-	//clientset2 "github.com/openebs/maya/pkg/client/generated/openebs.io/v1alpha2/clientset/internalclientset"
-	//informers2 "github.com/openebs/maya/pkg/client/generated/openebs.io/v1alpha2/informer/externalversions"
+	//clientset2 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/v1alpha2/clientset/internalclientset"
+	//informers2 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/v1alpha2/informer/externalversions"
 )
 
 const (

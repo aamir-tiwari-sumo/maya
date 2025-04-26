@@ -19,8 +19,8 @@ package nodeselector
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	pvc "github.com/openebs/maya/pkg/kubernetes/persistentvolumeclaim/v1alpha1"
-	"github.com/openebs/maya/tests/jiva"
+	pvc "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/persistentvolumeclaim/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/tests/jiva"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

@@ -18,8 +18,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	menv "github.com/openebs/maya/pkg/env/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	menv "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
 	v1_storage "k8s.io/api/storage/v1"
 )
 

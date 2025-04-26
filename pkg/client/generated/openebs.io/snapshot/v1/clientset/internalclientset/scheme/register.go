@@ -19,7 +19,7 @@ limitations under the License.
 package scheme
 
 import (
-	volumesnapshotv1 "github.com/openebs/maya/pkg/apis/openebs.io/snapshot/v1"
+	volumesnapshotv1 "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/snapshot/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

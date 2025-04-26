@@ -17,7 +17,7 @@ package mapiserver
 import (
 	"encoding/json"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 )
 
 const poolPath = "/latest/pools/"

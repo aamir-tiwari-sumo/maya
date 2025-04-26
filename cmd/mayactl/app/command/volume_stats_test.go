@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"github.com/spf13/cobra"
 	utiltesting "k8s.io/client-go/util/testing"
 )

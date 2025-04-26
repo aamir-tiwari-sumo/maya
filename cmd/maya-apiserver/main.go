@@ -15,8 +15,8 @@
 package main
 
 import (
-	"github.com/openebs/maya/cmd/maya-apiserver/app/command"
-	mlogger "github.com/openebs/maya/pkg/logs"
+	"github.com/aamir-tiwari-sumo/maya/cmd/maya-apiserver/app/command"
+	mlogger "github.com/aamir-tiwari-sumo/maya/pkg/logs"
 )
 
 func main() {

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/openebs/maya/pkg/exec"
+	"github.com/aamir-tiwari-sumo/maya/pkg/exec"
 )
 
 // ZVolStatus is zvol's status

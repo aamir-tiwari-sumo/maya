@@ -20,8 +20,8 @@ package volume
 import (
 	"strings"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	cast "github.com/openebs/maya/pkg/castemplate/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	cast "github.com/aamir-tiwari-sumo/maya/pkg/castemplate/v1alpha1"
 	errors "github.com/pkg/errors"
 )
 

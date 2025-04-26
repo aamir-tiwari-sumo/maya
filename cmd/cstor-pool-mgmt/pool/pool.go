@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openebs/maya/pkg/alertlog"
+	"github.com/aamir-tiwari-sumo/maya/pkg/alertlog"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	zpool "github.com/openebs/maya/pkg/apis/openebs.io/zpool/v1alpha1"
-	"github.com/openebs/maya/pkg/util"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	zpool "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/zpool/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"github.com/pkg/errors"
 	"k8s.io/klog"
 )

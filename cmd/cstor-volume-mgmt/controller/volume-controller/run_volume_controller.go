@@ -19,7 +19,7 @@ package volumecontroller
 import (
 	"fmt"
 
-	"github.com/openebs/maya/cmd/cstor-volume-mgmt/controller/common"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-volume-mgmt/controller/common"
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/tools/cache"

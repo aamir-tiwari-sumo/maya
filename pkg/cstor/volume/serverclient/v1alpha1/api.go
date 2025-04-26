@@ -20,8 +20,8 @@ import (
 
 	"k8s.io/klog"
 
-	"github.com/openebs/maya/pkg/client/generated/cstor-volume-mgmt/v1alpha1"
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/generated/cstor-volume-mgmt/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"golang.org/x/net/context"
 )
 

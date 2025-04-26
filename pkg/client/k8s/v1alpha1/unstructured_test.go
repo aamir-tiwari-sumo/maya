@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openebs/maya/pkg/util"
-	"github.com/openebs/maya/pkg/version"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/version"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 )
 

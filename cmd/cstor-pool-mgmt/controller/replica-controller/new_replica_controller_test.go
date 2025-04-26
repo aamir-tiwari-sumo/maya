@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	openebsFakeClientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned/fake"
-	informers "github.com/openebs/maya/pkg/client/generated/informers/externalversions"
+	openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/fake"
+	informers "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions"
 
 	kubeinformers "k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"

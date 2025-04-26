@@ -19,8 +19,8 @@ package main
 import (
 	"os"
 
-	"github.com/openebs/maya/cmd/cstor-volume-mgmt/app/command"
-	cstorlogger "github.com/openebs/maya/pkg/logs"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-volume-mgmt/app/command"
+	cstorlogger "github.com/aamir-tiwari-sumo/maya/pkg/logs"
 )
 
 func main() {

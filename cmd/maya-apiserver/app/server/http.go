@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"github.com/ghodss/yaml"
-	"github.com/openebs/maya/cmd/maya-apiserver/app/config"
+	"github.com/aamir-tiwari-sumo/maya/cmd/maya-apiserver/app/config"
 	errors "github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

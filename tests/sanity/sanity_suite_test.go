@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openebs/maya/pkg/client/k8s/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/k8s/v1alpha1"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	k8s "github.com/openebs/maya/pkg/client/k8s/v1alpha1"
-	"github.com/openebs/maya/tests/artifacts"
-	"github.com/openebs/maya/tests/kubernetes"
+	k8s "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/tests/artifacts"
+	"github.com/aamir-tiwari-sumo/maya/tests/kubernetes"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

@@ -17,9 +17,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	spc_v1alpha1 "github.com/openebs/maya/pkg/storagepoolclaim/v1alpha1"
-	"github.com/openebs/maya/tests/artifacts"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	spc_v1alpha1 "github.com/aamir-tiwari-sumo/maya/pkg/storagepoolclaim/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/tests/artifacts"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

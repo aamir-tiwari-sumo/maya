@@ -17,7 +17,7 @@ package v1alpha1
 import (
 	"testing"
 
-	ndmapis "github.com/openebs/maya/pkg/apis/openebs.io/ndm/v1alpha1"
+	ndmapis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/ndm/v1alpha1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

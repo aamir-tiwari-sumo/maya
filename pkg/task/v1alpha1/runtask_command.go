@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	jp "github.com/openebs/maya/pkg/jsonpath/v1alpha1"
-	msg "github.com/openebs/maya/pkg/msg/v1alpha1"
+	jp "github.com/aamir-tiwari-sumo/maya/pkg/jsonpath/v1alpha1"
+	msg "github.com/aamir-tiwari-sumo/maya/pkg/msg/v1alpha1"
 )
 
 const (

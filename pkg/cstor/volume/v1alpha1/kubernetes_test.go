@@ -19,9 +19,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	client "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

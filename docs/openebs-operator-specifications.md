@@ -162,6 +162,6 @@ As part of helping the human operator, openebs operator should be able to accomp
 - https://github.com/openebs/openebs/issues/2367
 
 ### Pull Requests:
-- https://github.com/openebs/maya/pull/875
-- https://github.com/openebs/maya/pull/900
-- https://github.com/openebs/maya/pull/911
+- https://github.com/aamir-tiwari-sumo/maya/pull/875
+- https://github.com/aamir-tiwari-sumo/maya/pull/900
+- https://github.com/aamir-tiwari-sumo/maya/pull/911

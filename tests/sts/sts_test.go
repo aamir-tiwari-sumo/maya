@@ -19,12 +19,12 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	k8s "github.com/openebs/maya/pkg/client/k8s/v1alpha1"
-	csp "github.com/openebs/maya/pkg/cstor/pool/v1alpha2"
-	cvr "github.com/openebs/maya/pkg/cstor/volumereplica/v1alpha1"
-	pvc "github.com/openebs/maya/pkg/kubernetes/persistentvolumeclaim/v1alpha1"
-	pod "github.com/openebs/maya/pkg/kubernetes/pod/v1alpha1"
-	"github.com/openebs/maya/tests/artifacts"
+	k8s "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s/v1alpha1"
+	csp "github.com/aamir-tiwari-sumo/maya/pkg/cstor/pool/v1alpha2"
+	cvr "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volumereplica/v1alpha1"
+	pvc "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/persistentvolumeclaim/v1alpha1"
+	pod "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/pod/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/tests/artifacts"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

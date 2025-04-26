@@ -11,11 +11,11 @@ build-maya:
      - export COMMIT=${CI_COMMIT_SHORT_SHA}
      - export GOPATH=$HOME/go
      - export PATH=$HOME/go/bin:$PATH
-     - mkdir -p $HOME/go/src/github.com/openebs/maya
-     - rsync -az --delete ${CI_PROJECT_DIR}/ ${HOME}/go/src/github.com/openebs/maya/ #CI_PROJECT_DIR is full path where project is cloned
+     - mkdir -p $HOME/go/src/github.com/aamir-tiwari-sumo/maya
+     - rsync -az --delete ${CI_PROJECT_DIR}/ ${HOME}/go/src/github.com/aamir-tiwari-sumo/maya/ #CI_PROJECT_DIR is full path where project is cloned
      - go env
      - ls $GOPATH
-     - cd ${HOME}/go/src/github.com/openebs/maya
+     - cd ${HOME}/go/src/github.com/aamir-tiwari-sumo/maya
 
      - make bootstrap
      - make format

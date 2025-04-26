@@ -19,12 +19,12 @@ package executor
 import (
 	"strings"
 
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"github.com/spf13/cobra"
 	"k8s.io/klog"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	upgrader "github.com/openebs/maya/pkg/upgrade/upgrader"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	upgrader "github.com/aamir-tiwari-sumo/maya/pkg/upgrade/upgrader"
 	errors "github.com/pkg/errors"
 )
 

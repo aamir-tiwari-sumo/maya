@@ -23,7 +23,7 @@ This document lists some of the guidelines and their corresponding examples that
 import (
   // Bad
   // alias `algorithm` conveys about what it contains i.e. some algorithm
-  algorithm "github.com/openebs/maya/pkg/algorithm/nodeSelect/v1alpha1"
+  algorithm "github.com/aamir-tiwari-sumo/maya/pkg/algorithm/nodeSelect/v1alpha1"
 )
 ```
 
@@ -34,7 +34,7 @@ import (
   // Good
   // `nodeselect` tries to convey what the logic provides
   // this seems more natural way to express
-  nodeselect "github.com/openebs/maya/pkg/algorithm/nodeSelect/v1alpha1"
+  nodeselect "github.com/aamir-tiwari-sumo/maya/pkg/algorithm/nodeSelect/v1alpha1"
 )
 ```
 
@@ -43,7 +43,7 @@ import(
 // Bad
 // upgrade looks more generic i.e upgrade package can have
 // different other sub-packages like result which can be imported
-upgrade "github.com/openebs/maya/pkg/upgrade/result/v1alpha1"
+upgrade "github.com/aamir-tiwari-sumo/maya/pkg/upgrade/result/v1alpha1"
 )
 ```
 
@@ -54,7 +54,7 @@ import(
 // Good
 // upgraderesult looks more specific and to the point i.e. the alias
 // is for 'result' which is inside upgrade
-upgraderesult "github.com/openebs/maya/pkg/upgrade/result/v1alpha1"
+upgraderesult "github.com/aamir-tiwari-sumo/maya/pkg/upgrade/result/v1alpha1"
 )
 ```
 
@@ -164,7 +164,7 @@ func (k *kubeclient) GetUpgradeResult(name string, opts metav1.GetOptions) (*api
     return k.get(cs, name, k.namespace, opts)
 }
 // Here the caller code will import this package as
-upgraderesult "github.com/openebs/maya/pkg/upgrade/result/v1alpha1"
+upgraderesult "github.com/aamir-tiwari-sumo/maya/pkg/upgrade/result/v1alpha1"
 
 // And then the above method will be called as
 upgraderesult.KubeClient().GetUpgradeResult(name,opts)
@@ -188,7 +188,7 @@ func (k *kubeclient) Get(name string, opts metav1.GetOptions) (*apis.UpgradeResu
     return k.get(cs, name, k.namespace, opts)
 }
 // Here the caller code will import this package as
-upgraderesult "github.com/openebs/maya/pkg/upgrade/result/v1alpha1"
+upgraderesult "github.com/aamir-tiwari-sumo/maya/pkg/upgrade/result/v1alpha1"
 
 // And then the above method will be called as
 upgraderesult.KubeClient().Get(name,opts)

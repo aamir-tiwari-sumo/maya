@@ -22,10 +22,10 @@ import (
 	"time"
 
 	. "github.com/onsi/gomega"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	hash "github.com/openebs/maya/pkg/hash"
-	"github.com/openebs/maya/pkg/util"
-	"github.com/openebs/maya/tests"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	hash "github.com/aamir-tiwari-sumo/maya/pkg/hash"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/tests"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	// auth plugins

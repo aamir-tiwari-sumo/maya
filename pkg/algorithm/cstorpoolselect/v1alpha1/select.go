@@ -21,13 +21,13 @@ import (
 	"strings"
 	"text/template"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	csp "github.com/openebs/maya/pkg/cstor/pool/v1alpha2"
-	cstorvolume "github.com/openebs/maya/pkg/cstor/volume/v1alpha1"
-	cstorvolumereplica "github.com/openebs/maya/pkg/cstor/volumereplica/v1alpha1"
-	cvr "github.com/openebs/maya/pkg/cstor/volumereplica/v1alpha1"
-	env "github.com/openebs/maya/pkg/env/v1alpha1"
-	spc "github.com/openebs/maya/pkg/storagepoolclaim/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	csp "github.com/aamir-tiwari-sumo/maya/pkg/cstor/pool/v1alpha2"
+	cstorvolume "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volume/v1alpha1"
+	cstorvolumereplica "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volumereplica/v1alpha1"
+	cvr "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volumereplica/v1alpha1"
+	env "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
+	spc "github.com/aamir-tiwari-sumo/maya/pkg/storagepoolclaim/v1alpha1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

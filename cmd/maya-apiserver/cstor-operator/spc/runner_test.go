@@ -17,9 +17,9 @@ limitations under the License.
 package spc
 
 import (
-	openebsFakeClientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned/fake"
-	informers "github.com/openebs/maya/pkg/client/generated/informers/externalversions"
-	"github.com/openebs/maya/pkg/signals"
+	openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/fake"
+	informers "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions"
+	"github.com/aamir-tiwari-sumo/maya/pkg/signals"
 	"k8s.io/client-go/kubernetes/fake"
 	"testing"
 	"time"

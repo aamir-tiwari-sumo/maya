@@ -19,8 +19,8 @@ limitations under the License.
 package v1
 
 import (
-	v1 "github.com/openebs/maya/pkg/apis/openebs.io/snapshot/v1"
-	"github.com/openebs/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset/scheme"
+	v1 "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/snapshot/v1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

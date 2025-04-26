@@ -21,7 +21,7 @@ package internalclientset
 import (
 	"fmt"
 
-	volumesnapshotv1 "github.com/openebs/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset/typed/snapshot/v1"
+	volumesnapshotv1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset/typed/snapshot/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

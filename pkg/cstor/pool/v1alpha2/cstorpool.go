@@ -20,7 +20,7 @@ import (
 	"k8s.io/klog"
 	"text/template"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 	"k8s.io/apimachinery/pkg/types"
 )
 

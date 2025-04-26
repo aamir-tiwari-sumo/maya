@@ -19,7 +19,7 @@ package command
 import (
 	"fmt"
 
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"github.com/spf13/cobra"
 	"k8s.io/klog"
 )

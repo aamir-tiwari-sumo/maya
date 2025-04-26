@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"
 )

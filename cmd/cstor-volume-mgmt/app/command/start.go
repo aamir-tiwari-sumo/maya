@@ -20,10 +20,10 @@ import (
 	goflag "flag"
 	"sync"
 
-	startcontroller "github.com/openebs/maya/cmd/cstor-volume-mgmt/controller/start-controller"
-	"github.com/openebs/maya/cmd/cstor-volume-mgmt/volume"
-	serverclient "github.com/openebs/maya/pkg/cstor/volume/serverclient/v1alpha1"
-	targetserver "github.com/openebs/maya/pkg/cstor/volume/targetserver"
+	startcontroller "github.com/aamir-tiwari-sumo/maya/cmd/cstor-volume-mgmt/controller/start-controller"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-volume-mgmt/volume"
+	serverclient "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volume/serverclient/v1alpha1"
+	targetserver "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volume/targetserver"
 	"github.com/spf13/cobra"
 )
 

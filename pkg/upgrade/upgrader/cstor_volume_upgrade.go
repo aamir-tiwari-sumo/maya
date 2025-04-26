@@ -22,10 +22,10 @@ import (
 	"text/template"
 	"time"
 
-	utask "github.com/openebs/maya/pkg/apis/openebs.io/upgrade/v1alpha1"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	templates "github.com/openebs/maya/pkg/upgrade/templates/v1"
-	"github.com/openebs/maya/pkg/util"
+	utask "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/upgrade/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	templates "github.com/aamir-tiwari-sumo/maya/pkg/upgrade/templates/v1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"k8s.io/klog"
 
 	errors "github.com/pkg/errors"

@@ -17,8 +17,8 @@ limitations under the License.
 package v1alpha2
 
 import (
-	ndm "github.com/openebs/maya/pkg/apis/openebs.io/ndm/v1alpha1"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	ndm "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/ndm/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 	"github.com/pkg/errors"
 )
 

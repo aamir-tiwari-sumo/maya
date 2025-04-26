@@ -19,9 +19,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	client "github.com/openebs/maya/pkg/client/jiva"
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/client/jiva"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"github.com/spf13/cobra"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utiltesting "k8s.io/client-go/util/testing"

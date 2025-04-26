@@ -1,4 +1,4 @@
-module github.com/openebs/maya
+module github.com/aamir-tiwari-sumo/maya
 
 go 1.24.0
 

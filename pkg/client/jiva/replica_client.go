@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 )
 
 // NewReplicaClient create the new replica client

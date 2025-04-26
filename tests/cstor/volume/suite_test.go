@@ -18,11 +18,11 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/openebs/maya/tests"
-	"github.com/openebs/maya/tests/cstor"
+	"github.com/aamir-tiwari-sumo/maya/tests"
+	"github.com/aamir-tiwari-sumo/maya/tests/cstor"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	ns "github.com/openebs/maya/pkg/kubernetes/namespace/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	ns "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/namespace/v1alpha1"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	storagev1 "k8s.io/api/storage/v1"

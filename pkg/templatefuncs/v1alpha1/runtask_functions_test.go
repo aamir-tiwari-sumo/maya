@@ -23,8 +23,8 @@ import (
 	"testing"
 	"text/template"
 
-	msg "github.com/openebs/maya/pkg/msg/v1alpha1"
-	cmd "github.com/openebs/maya/pkg/task/v1alpha1"
+	msg "github.com/aamir-tiwari-sumo/maya/pkg/msg/v1alpha1"
+	cmd "github.com/aamir-tiwari-sumo/maya/pkg/task/v1alpha1"
 )
 
 // TestIsValidTemplateFunctionName verifies if suggested template function names

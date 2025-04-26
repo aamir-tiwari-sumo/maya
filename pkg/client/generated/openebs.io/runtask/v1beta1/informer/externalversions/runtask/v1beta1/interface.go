@@ -19,7 +19,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	internalinterfaces "github.com/openebs/maya/pkg/client/generated/openebs.io/runtask/v1beta1/informer/externalversions/internalinterfaces"
+	internalinterfaces "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/runtask/v1beta1/informer/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

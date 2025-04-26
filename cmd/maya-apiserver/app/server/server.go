@@ -19,7 +19,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/openebs/maya/cmd/maya-apiserver/app/config"
+	"github.com/aamir-tiwari-sumo/maya/cmd/maya-apiserver/app/config"
 )
 
 // MayaApiServer is a long running stateless daemon that runs

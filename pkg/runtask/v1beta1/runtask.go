@@ -18,7 +18,7 @@ package v1beta1
 
 import (
 	"github.com/ghodss/yaml"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/runtask/v1beta1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/runtask/v1beta1"
 	"github.com/pkg/errors"
 )
 

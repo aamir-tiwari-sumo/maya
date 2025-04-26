@@ -21,7 +21,7 @@ package internalclientset
 import (
 	"fmt"
 
-	openebsv1beta1 "github.com/openebs/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset/typed/runtask/v1beta1"
+	openebsv1beta1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/runtask/v1beta1/clientset/internalclientset/typed/runtask/v1beta1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

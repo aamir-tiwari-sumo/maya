@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/openebs/maya/pkg/alertlog"
+	"github.com/aamir-tiwari-sumo/maya/pkg/alertlog"
 
 	"strings"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	cvapis "github.com/openebs/maya/pkg/cstor/volume/v1alpha1"
-	"github.com/openebs/maya/pkg/util"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	cvapis "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volume/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/klog"

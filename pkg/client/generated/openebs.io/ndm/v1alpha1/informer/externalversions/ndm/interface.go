@@ -19,8 +19,8 @@ limitations under the License.
 package ndm
 
 import (
-	internalinterfaces "github.com/openebs/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/informer/externalversions/internalinterfaces"
-	v1alpha1 "github.com/openebs/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/informer/externalversions/ndm/v1alpha1"
+	internalinterfaces "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/informer/externalversions/internalinterfaces"
+	v1alpha1 "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/informer/externalversions/ndm/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

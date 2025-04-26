@@ -24,9 +24,9 @@ import (
 	"text/template"
 	"time"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/upgrade/v1alpha1"
-	clientset "github.com/openebs/maya/pkg/client/generated/openebs.io/upgrade/v1alpha1/clientset/internalclientset"
-	client "github.com/openebs/maya/pkg/kubernetes/client/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/upgrade/v1alpha1"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/upgrade/v1alpha1/clientset/internalclientset"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/client/v1alpha1"
 	errors "github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
@@ -134,7 +134,7 @@ var (
 //
 // ```go
 // import (
-//  uresult "github.com/openebs/maya/pkg/upgrade/result/v1alpha1"
+//  uresult "github.com/aamir-tiwari-sumo/maya/pkg/upgrade/result/v1alpha1"
 // )
 //
 // uresult.KubeClientInstanceOrDie().WithNamespace("my_ns").Get(...)

@@ -19,7 +19,7 @@ package replicacontroller
 import (
 	"fmt"
 
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/common"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/common"
 	errors "github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"

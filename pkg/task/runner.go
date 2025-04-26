@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	stringer "github.com/openebs/maya/pkg/apis/stringer/v1alpha1"
-	templatefuncs "github.com/openebs/maya/pkg/templatefuncs/v1alpha1"
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	stringer "github.com/aamir-tiwari-sumo/maya/pkg/apis/stringer/v1alpha1"
+	templatefuncs "github.com/aamir-tiwari-sumo/maya/pkg/templatefuncs/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	errors "github.com/pkg/errors"
 	"k8s.io/klog"
 )

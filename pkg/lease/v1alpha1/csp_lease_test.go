@@ -18,14 +18,14 @@ package lease
 import (
 	"context"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 
 	"os"
 	"strconv"
 	"testing"
 
-	openebs "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	openebsFakeClientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned/fake"
+	openebs "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/fake"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"

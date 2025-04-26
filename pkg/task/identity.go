@@ -19,7 +19,7 @@ package task
 import (
 	"fmt"
 
-	m_k8s_client "github.com/openebs/maya/pkg/client/k8s"
+	m_k8s_client "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s"
 )
 
 // RunTaskKind represents type of runtask operation

@@ -21,11 +21,11 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
 
-	ns "github.com/openebs/maya/pkg/kubernetes/namespace/v1alpha1"
-	pvc "github.com/openebs/maya/pkg/kubernetes/persistentvolumeclaim/v1alpha1"
-	sc "github.com/openebs/maya/pkg/kubernetes/storageclass/v1alpha1"
+	ns "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/namespace/v1alpha1"
+	pvc "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/persistentvolumeclaim/v1alpha1"
+	sc "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/storageclass/v1alpha1"
 	corev1 "k8s.io/api/core/v1"
 	storagev1 "k8s.io/api/storage/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

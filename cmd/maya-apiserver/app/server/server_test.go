@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/openebs/maya/cmd/maya-apiserver/app/config"
+	"github.com/aamir-tiwari-sumo/maya/cmd/maya-apiserver/app/config"
 )
 
 func getPort() int {

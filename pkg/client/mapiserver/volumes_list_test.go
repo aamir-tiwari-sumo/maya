@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/openebs/maya/types/v1"
+	"github.com/aamir-tiwari-sumo/maya/types/v1"
 	utiltesting "k8s.io/client-go/util/testing"
 )
 

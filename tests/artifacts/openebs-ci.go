@@ -19,10 +19,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	k8s "github.com/openebs/maya/pkg/client/k8s/v1alpha1"
+	k8s "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s/v1alpha1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"github.com/openebs/maya/pkg/artifact/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/artifact/v1alpha1"
 )
 
 // ArtifactSource holds the path to fetch artifacts

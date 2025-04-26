@@ -19,10 +19,10 @@ package replicascaleup
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	cv "github.com/openebs/maya/pkg/cstor/volume/v1alpha1"
-	cvr "github.com/openebs/maya/pkg/cstor/volumereplica/v1alpha1"
-	"github.com/openebs/maya/tests"
-	"github.com/openebs/maya/tests/cstor"
+	cv "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volume/v1alpha1"
+	cvr "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volumereplica/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/tests"
+	"github.com/aamir-tiwari-sumo/maya/tests/cstor"
 
 	// auth plugins
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

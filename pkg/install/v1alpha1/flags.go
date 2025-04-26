@@ -19,7 +19,7 @@ package v1alpha1
 import (
 	"strconv"
 
-	menv "github.com/openebs/maya/pkg/env/v1alpha1"
+	menv "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
 )
 
 // IsDefaultStorageConfigEnabled reads from env variable to check

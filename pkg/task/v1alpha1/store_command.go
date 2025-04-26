@@ -19,8 +19,8 @@ package v1alpha1
 import (
 	"time"
 
-	msg "github.com/openebs/maya/pkg/msg/v1alpha1"
-	"github.com/openebs/maya/pkg/util"
+	msg "github.com/aamir-tiwari-sumo/maya/pkg/msg/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"github.com/pkg/errors"
 )
 

@@ -20,9 +20,9 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/openebs/maya/tests"
+	"github.com/aamir-tiwari-sumo/maya/tests"
 
-	ns "github.com/openebs/maya/pkg/kubernetes/namespace/v1alpha1"
+	ns "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/namespace/v1alpha1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 

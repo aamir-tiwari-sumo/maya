@@ -15,8 +15,8 @@
 package v1alpha1
 
 import (
-	"github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	snapshot "github.com/openebs/maya/pkg/client/snapshot/cstor/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	snapshot "github.com/aamir-tiwari-sumo/maya/pkg/client/snapshot/cstor/v1alpha1"
 )
 
 // cstor is used to invoke Create call

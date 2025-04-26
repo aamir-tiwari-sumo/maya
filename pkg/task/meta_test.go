@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/ghodss/yaml"
-	"github.com/openebs/maya/pkg/template"
+	"github.com/aamir-tiwari-sumo/maya/pkg/template"
 )
 
 func TestMetaTaskPropsSelectOverride(t *testing.T) {

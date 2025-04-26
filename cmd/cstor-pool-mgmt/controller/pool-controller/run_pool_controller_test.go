@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/common"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	openebsFakeClientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned/fake"
-	informers "github.com/openebs/maya/pkg/client/generated/informers/externalversions"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/common"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/fake"
+	informers "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions"
 
-	"github.com/openebs/maya/pkg/signals"
+	"github.com/aamir-tiwari-sumo/maya/pkg/signals"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	kubeinformers "k8s.io/client-go/informers"

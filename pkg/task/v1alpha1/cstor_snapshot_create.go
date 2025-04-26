@@ -17,7 +17,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	cstor "github.com/openebs/maya/pkg/snapshot/cstor/v1alpha1"
+	cstor "github.com/aamir-tiwari-sumo/maya/pkg/snapshot/cstor/v1alpha1"
 	"github.com/pkg/errors"
 )
 

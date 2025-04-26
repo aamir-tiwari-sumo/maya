@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"strings"
 
-	stringer "github.com/openebs/maya/pkg/apis/stringer/v1alpha1"
+	stringer "github.com/aamir-tiwari-sumo/maya/pkg/apis/stringer/v1alpha1"
 	"github.com/pkg/errors"
 )
 

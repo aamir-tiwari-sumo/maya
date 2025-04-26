@@ -14,7 +14,7 @@
 
 package mapiserver
 
-import "github.com/openebs/maya/pkg/util"
+import "github.com/aamir-tiwari-sumo/maya/pkg/util"
 
 const (
 	getStatusPath = "/latest/meta-data/instance-id"

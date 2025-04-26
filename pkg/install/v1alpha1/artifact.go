@@ -17,8 +17,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	k8s "github.com/openebs/maya/pkg/client/k8s/v1alpha1"
-	template "github.com/openebs/maya/pkg/template/v1alpha1"
+	k8s "github.com/aamir-tiwari-sumo/maya/pkg/client/k8s/v1alpha1"
+	template "github.com/aamir-tiwari-sumo/maya/pkg/template/v1alpha1"
 	"github.com/pkg/errors"
 	"strings"
 )

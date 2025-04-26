@@ -32,15 +32,15 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/klog"
 
-	"github.com/openebs/maya/cmd/cstor-pool-mgmt/controller/common"
+	"github.com/aamir-tiwari-sumo/maya/cmd/cstor-pool-mgmt/controller/common"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
 
-	//openebsScheme "github.com/openebs/maya/pkg/client/clientset/versioned/scheme"
-	openebsScheme "github.com/openebs/maya/pkg/client/generated/clientset/versioned/scheme"
-	//informers "github.com/openebs/maya/pkg/client/informers/externalversions"
-	informers "github.com/openebs/maya/pkg/client/generated/informers/externalversions"
+	//openebsScheme "github.com/aamir-tiwari-sumo/maya/pkg/client/clientset/versioned/scheme"
+	openebsScheme "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/scheme"
+	//informers "github.com/aamir-tiwari-sumo/maya/pkg/client/informers/externalversions"
+	informers "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions"
 )
 
 const poolControllerName = "CStorPool"

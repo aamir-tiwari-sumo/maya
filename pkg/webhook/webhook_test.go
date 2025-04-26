@@ -19,9 +19,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	snapshotapi "github.com/openebs/maya/pkg/apis/openebs.io/snapshot/v1"
-	openebsFakeClientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned/fake"
-	snapFakeClientset "github.com/openebs/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset/fake"
+	snapshotapi "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/snapshot/v1"
+	openebsFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned/fake"
+	snapFakeClientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/snapshot/v1/clientset/internalclientset/fake"
 	v1 "k8s.io/api/admission/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

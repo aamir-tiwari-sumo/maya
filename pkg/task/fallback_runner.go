@@ -18,7 +18,7 @@ package task
 
 import (
 	"fmt"
-	"github.com/openebs/maya/pkg/client/k8s"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/k8s"
 	"github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"strings"

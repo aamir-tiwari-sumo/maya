@@ -22,7 +22,7 @@ import (
 	"bytes"
 	"text/template"
 
-	"github.com/openebs/maya/pkg/templatefuncs/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/templatefuncs/v1alpha1"
 	yaml "gopkg.in/yaml.v2"
 )
 

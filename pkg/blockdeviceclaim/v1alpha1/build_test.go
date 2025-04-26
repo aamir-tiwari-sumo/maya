@@ -24,8 +24,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/ndm/v1alpha1"
-	ndm "github.com/openebs/maya/pkg/apis/openebs.io/ndm/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/ndm/v1alpha1"
+	ndm "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/ndm/v1alpha1"
 )
 
 func TestBuilderWithName(t *testing.T) {

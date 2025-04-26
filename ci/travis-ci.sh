@@ -20,7 +20,7 @@ set -e
 # global env vars to be used in test scripts
 export CI_BRANCH="master"
 export CI_TAG="ci"
-export MAYACTL="$GOPATH/src/github.com/openebs/maya/bin/maya/mayactl"
+export MAYACTL="$GOPATH/src/github.com/aamir-tiwari-sumo/maya/bin/maya/mayactl"
 
 ./ci/build-maya.sh
 rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi

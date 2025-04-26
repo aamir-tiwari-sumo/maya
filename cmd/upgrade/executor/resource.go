@@ -21,13 +21,13 @@ import (
 
 	"k8s.io/klog"
 
-	utaskapis "github.com/openebs/maya/pkg/apis/openebs.io/upgrade/v1alpha1"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	"github.com/openebs/maya/pkg/util"
+	utaskapis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/upgrade/v1alpha1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"github.com/spf13/cobra"
 
-	upgrader "github.com/openebs/maya/pkg/upgrade/upgrader"
-	utask "github.com/openebs/maya/pkg/upgrade/v1alpha2"
+	upgrader "github.com/aamir-tiwari-sumo/maya/pkg/upgrade/upgrader"
+	utask "github.com/aamir-tiwari-sumo/maya/pkg/upgrade/v1alpha2"
 	errors "github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

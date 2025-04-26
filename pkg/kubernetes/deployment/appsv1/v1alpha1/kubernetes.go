@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/openebs/maya/pkg/debug"
+	"github.com/aamir-tiwari-sumo/maya/pkg/debug"
 
-	client "github.com/openebs/maya/pkg/kubernetes/client/v1alpha1"
+	client "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/client/v1alpha1"
 	"github.com/pkg/errors"
 	appsv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

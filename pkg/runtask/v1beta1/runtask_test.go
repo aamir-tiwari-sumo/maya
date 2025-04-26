@@ -17,7 +17,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/runtask/v1beta1"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/runtask/v1beta1"
 	"github.com/pkg/errors"
 	"reflect"
 	"testing"

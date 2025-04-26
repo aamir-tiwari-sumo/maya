@@ -24,10 +24,10 @@ import (
 
 	"time"
 
-	clientset "github.com/openebs/maya/pkg/client/generated/clientset/versioned"
-	informers "github.com/openebs/maya/pkg/client/generated/informers/externalversions"
-	ndmclientset "github.com/openebs/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset"
-	"github.com/openebs/maya/pkg/signals"
+	clientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/clientset/versioned"
+	informers "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/informers/externalversions"
+	ndmclientset "github.com/aamir-tiwari-sumo/maya/pkg/client/generated/openebs.io/ndm/v1alpha1/clientset/internalclientset"
+	"github.com/aamir-tiwari-sumo/maya/pkg/signals"
 	kubeinformers "k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"

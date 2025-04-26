@@ -15,8 +15,8 @@
 package v1alpha1
 
 import (
-	container "github.com/openebs/maya/pkg/kubernetes/container/v1alpha1"
-	volume "github.com/openebs/maya/pkg/kubernetes/volume/v1alpha1"
+	container "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/container/v1alpha1"
+	volume "github.com/aamir-tiwari-sumo/maya/pkg/kubernetes/volume/v1alpha1"
 	errors "github.com/pkg/errors"
 	corev1 "k8s.io/api/core/v1"
 )

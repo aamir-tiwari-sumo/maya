@@ -22,10 +22,10 @@ import (
 	"time"
 
 	. "github.com/onsi/gomega"
-	apis "github.com/openebs/maya/pkg/apis/openebs.io/v1alpha1"
-	cvr "github.com/openebs/maya/pkg/cstor/volumereplica/v1alpha1"
-	"github.com/openebs/maya/tests"
-	"github.com/openebs/maya/tests/cstor"
+	apis "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/v1alpha1"
+	cvr "github.com/aamir-tiwari-sumo/maya/pkg/cstor/volumereplica/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/tests"
+	"github.com/aamir-tiwari-sumo/maya/tests/cstor"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 

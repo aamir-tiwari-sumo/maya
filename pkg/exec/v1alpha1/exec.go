@@ -20,7 +20,7 @@ import (
 
 	"context"
 
-	types "github.com/openebs/maya/pkg/exec"
+	types "github.com/aamir-tiwari-sumo/maya/pkg/exec"
 	"github.com/pkg/errors"
 )
 

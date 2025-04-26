@@ -29,7 +29,7 @@ ENV GO111MODULE=on \
   RELEASE_TAG=${RELEASE_TAG} \
   BRANCH=${BRANCH}
 
-WORKDIR /go/src/github.com/openebs/maya/
+WORKDIR /go/src/github.com/aamir-tiwari-sumo/maya/
 
 RUN apt-get update && apt-get install -y make git
 
@@ -54,8 +54,8 @@ LABEL org.label-schema.build-date=$DBUILD_DATE
 LABEL org.label-schema.vcs-url=$DBUILD_REPO_URL
 LABEL org.label-schema.url=$DBUILD_SITE_URL
 
-COPY --from=build /go/src/github.com/openebs/maya/bin/cstor-pool-mgmt/cstor-pool-mgmt /usr/local/bin/
-COPY --from=build /go/src/github.com/openebs/maya/buildscripts/cstor-pool-mgmt/entrypoint.sh /usr/local/bin/
+COPY --from=build /go/src/github.com/aamir-tiwari-sumo/maya/bin/cstor-pool-mgmt/cstor-pool-mgmt /usr/local/bin/
+COPY --from=build /go/src/github.com/aamir-tiwari-sumo/maya/buildscripts/cstor-pool-mgmt/entrypoint.sh /usr/local/bin/
 
 RUN echo '#!/bin/bash\nif [ $# -lt 1 ]; then\n\techo "argument missing"\n\texit 1\nfi\neval "$*"\n' >> /usr/local/bin/execute.sh
 

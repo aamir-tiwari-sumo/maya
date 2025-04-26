@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/openebs/maya/pkg/util"
+	"github.com/aamir-tiwari-sumo/maya/pkg/util"
 	"github.com/spf13/cobra"
 	utiltesting "k8s.io/client-go/util/testing"
 )

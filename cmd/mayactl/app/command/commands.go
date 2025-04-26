@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/openebs/maya/cmd/mayactl/app/command/pool"
+	"github.com/aamir-tiwari-sumo/maya/cmd/mayactl/app/command/pool"
 	"k8s.io/klog"
 
-	//"github.com/openebs/maya/cmd/mayactl/app/command/snapshot"
-	"github.com/openebs/maya/pkg/client/mapiserver"
+	//"github.com/aamir-tiwari-sumo/maya/cmd/mayactl/app/command/snapshot"
+	"github.com/aamir-tiwari-sumo/maya/pkg/client/mapiserver"
 	"github.com/spf13/cobra"
 )
 

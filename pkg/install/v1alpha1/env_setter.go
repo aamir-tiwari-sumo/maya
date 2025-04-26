@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	menv "github.com/openebs/maya/pkg/env/v1alpha1"
-	ver "github.com/openebs/maya/pkg/version"
+	menv "github.com/aamir-tiwari-sumo/maya/pkg/env/v1alpha1"
+	ver "github.com/aamir-tiwari-sumo/maya/pkg/version"
 )
 
 // EnvStatus represents the status of operation

@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"strings"
 
-	vdump "github.com/openebs/maya/pkg/apis/openebs.io/zpool/v1alpha1"
-	"github.com/openebs/maya/pkg/zfs/cmd/v1alpha1/bin"
+	vdump "github.com/aamir-tiwari-sumo/maya/pkg/apis/openebs.io/zpool/v1alpha1"
+	"github.com/aamir-tiwari-sumo/maya/pkg/zfs/cmd/v1alpha1/bin"
 	"github.com/pkg/errors"
 )
 
